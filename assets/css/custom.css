@@ -128,10 +128,9 @@
 @media screen and (max-width: 486px) {
   #intern_dashboard {
     left: -42px;
-    viewport-fit: auto;
     top: 144px;
     height: 35rem;
-    width: 23rem;
+    width: 100vw;
   }
 }
 
@@ -139,20 +138,18 @@
 @media screen and (max-width: 368px) {
   #intern_dashboard {
     left: 10px;
-    viewport-fit: auto;
     top: 122px;
     height: 32rem;
-    width: 23rem;
+    width: 100vw;
   }
 }
 
 @media screen and (max-width: 280px) {
   #intern_dashboard {
     left: 0px;
-    viewport-fit: auto;
     top: 122px;
     height: 32rem;
-    width: 23rem;
+    width: 100vw;
   }
 }
 /* .logoBar {
