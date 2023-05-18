@@ -65,7 +65,7 @@
   position: absolute;
   left: 175px;
   top: 70px;
-  height: 38rem;
+  height: 37rem;
   width: 60rem;
 }
 
@@ -75,29 +75,32 @@
   }
 }
 
+/* iframe */
 @media screen and (max-width: 1266px) {
   #intern_dashboard {
     left: 100px;
-    height: 35rem;
+    top: 130px;
+    height: 37rem;
     width: 55rem;
   }
 }
 
 @media screen and (max-width: 1176px) {
   #intern_dashboard {
-    left: 46px;
-    top: 110px;
-    height: 35rem;
+    left: 36px;
+    top: 120px;
+    height: 37rem;
     width: 55rem;
   }
 }
+
 
 /* New iframe link  */
 @media screen and (max-width: 1033px) {
   #intern_dashboard {
     left: 55px;
     top: 130px;
-    height: 35rem;
+    height: 37rem;
     width: 44rem;
   }
 }
@@ -107,7 +110,7 @@
   #intern_dashboard {
     left: 131px;
     top: 122px;
-    height: 35rem;
+    height: 40rem;
     width: 25rem;
   }
 }
@@ -116,7 +119,7 @@
   #intern_dashboard {
     left: 10px;
     top: 122px;
-    height: 35rem;
+    height: 40rem;
     width: 25rem;
   }
 }
@@ -126,7 +129,7 @@
   #intern_dashboard {
     left: 60px;
     top: 122px;
-    height: 34rem;
+    height: 100rem;
     width: 13rem;
   }
 }
@@ -135,7 +138,7 @@
   #intern_dashboard {
     left: 10px;
     top: 122px;
-    height: 34rem;
+    height: 100rem;
     width: 13rem;
   }
 }
@@ -144,7 +147,7 @@
   #intern_dashboard {
     left: 0px;
     top: 122px;
-    height: 34rem;
+    height: 20rem;
     width: 13rem;
   }
 }
