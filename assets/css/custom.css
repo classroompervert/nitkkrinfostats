@@ -127,7 +127,7 @@
 /* New Iframe link  */
 @media screen and (max-width: 486px) {
   #intern_dashboard {
-    left: -42px;
+    /* left: -42px; */
     top: 144px;
     height: 35rem;
     width: 23rem;
