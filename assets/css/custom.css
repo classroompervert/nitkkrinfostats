@@ -127,12 +127,13 @@
 /* New Iframe link  */
 @media screen and (max-width: 486px) {
   #intern_dashboard {
-    left: 60px;
-    top: 122px;
-    height: 32rem;
+    left: -42px;
+    top: 144px;
+    height: 35rem;
     width: 23rem;
   }
 }
+
 
 @media screen and (max-width: 368px) {
   #intern_dashboard {
