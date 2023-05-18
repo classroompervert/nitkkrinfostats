@@ -1793,6 +1793,8 @@ body {
     visibility: visible
 }
 
+
+
 .outer-nav--return {
     position: absolute;
     top: 0;
@@ -1865,6 +1867,24 @@ body {
     }
 }
 
+@media (max-width: 445px) {
+    .outer-nav>li {
+        font-size: 28px
+    }
+}
+
+
+@media (max-width: 360px) {
+    .outer-nav>li {
+        font-size: 25px
+    }
+}
+
+@media (max-width: 310px) {
+    .outer-nav>li {
+        font-size: 22px
+    }
+}
 .outer-nav li.is-vis:nth-child(2) {
     -webkit-transition-delay: .04s;
     transition-delay: .04s
