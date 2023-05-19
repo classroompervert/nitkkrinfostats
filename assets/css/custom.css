@@ -727,8 +727,15 @@ color: green;
 }
 } */
 
+
 @media screen and (max-width: 445px) {
 
+  .data_contributors_container {
+    left: -8.5rem;
+}
+  .about_container {
+    left: -55px;
+}
   .show {
     height: 72px;
     font-size: 10px;
@@ -850,7 +857,135 @@ color: green;
   }
 }
 
+@media screen and (max-width: 368px) {
 
+  .about_container {
+    left: -89px;
+}
+
+.data_contributors_container {
+  left: -10.7rem;
+}
+  .show {
+    height: 72px;
+    font-size: 10px;
+    width: 18rem;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+  #Developers{
+    font-size: 19px;
+    position: relative;
+    left: -100px;
+  }
+
+  .data_contributor_linkedin {
+    border: 2px solid gray;
+    position: relative;
+    left: -39px;
+    border-radius: 9px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    box-shadow: 1px 1px 8px #888888;
+    top: 32px;
+    font-size: 10px;
+}
+#Developers {
+  font-size: 15px;
+  position: relative;
+  left: -111px;
+}
+
+#rahul_name {
+  font-size: 11px;
+  padding-top: 5px;
+  margin-bottom: -10px;
+}
+
+#gautam_name {
+  font-size: 11px;
+  padding-top: 5px;
+  margin-bottom: -10px;
+}
+.know_rahul {
+  width: 8rem;
+  font-size: 10px;
+}
+
+.know_gautam {
+  width: 8rem;
+  font-size: 10px;
+}
+#rahul_img {
+  height: 69px;
+  width: 69px;
+  margin-top: 55px;
+}
+
+#gautam_img {
+  height: 69px;
+  width: 69px;
+  margin-top: 43px;
+}
+
+#rahul_linkedin :hover{
+  height: 17px;
+}
+
+#rahul_linkedin{
+  font-size: 10px;
+}
+
+#gautam_linkedin :hover{
+  height: 17px;
+}
+
+#gautam_linkedin{
+  font-size: 10px;
+}
+
+#data_contributors {
+  position: relative;
+  font-size: 15px;
+  left: 16rem;
+}
+
+.marquee {
+  width: 258px;
+  height: 12rem;
+  position: relative;
+  left: 178px;
+}
+
+ .data_contributor_name{
+  left: 44px;
+  font-size: 11px;
+ }
+
+  #data_contributor_img {
+    height: 69px;
+    width: 69px;
+  }
+
+  .data_contributor_linkedin{
+    font-size: 9px;
+    left: -33px;
+    /* border: 2px solid white; */
+    padding: 5px;
+  }
+
+  .data_contributor_linkedin :hover{
+    font-size: 9px;
+    left: -33px;
+    /* border: 2px solid white; */
+    padding: 5px;
+  }
+
+  .marquee .data_card {
+    animation: marquee 10s linear infinite;
+  
+  }
+}
 @media screen and (max-width: 307px) {
   .show {
     height: 85px;
@@ -860,6 +995,17 @@ color: green;
 }
 }
 
+
+@media screen and (max-width: 368px) {
+
+  .about_container {
+    left: -117px;
+}
+
+.data_contributors_container {
+  left: -11.7rem;
+}
+}
 .marquee .data_card {
   
   display: inline-block;
