@@ -999,11 +999,10 @@ color: green;
 @media screen and (max-width: 368px) {
 
   .about_container {
-    left: -117px;
+    left: -88px;
 }
-
 .data_contributors_container {
-  left: -11.7rem;
+  left: -9.7rem;
 }
 }
 .marquee .data_card {
