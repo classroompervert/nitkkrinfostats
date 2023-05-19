@@ -1,4 +1,6 @@
 
+
+
 #dashboard_ss{
   position: absolute;
   bottom: 40px;
@@ -230,6 +232,7 @@ margin: 0 auto;
   justify-content: center;
   border: 0.5px solid white;
   border-radius: 10px;
+  height: 75px;
 }
 h1 {
 color: green;
@@ -501,6 +504,14 @@ color: green;
   height: 12rem;
 }
 
+
+@media screen and (max-width: 1318px) {
+  .show{
+    height: 75px;
+    font-size: 12px;
+    width: 22rem;
+  }
+}
 @media screen and (max-width: 1276px) {
 
   #data_contributors{
@@ -640,6 +651,7 @@ color: green;
 }
 
 
+
 @media screen and (max-width: 990px) {
   .about_container{
     left: -67px;
@@ -649,6 +661,34 @@ color: green;
     left: -8.5rem;
   }
 }
+
+@media screen and (max-width: 746px) {
+  .show {
+    height: 110px;
+    font-size: 12px;
+    width: 17rem;
+}
+}
+
+@media screen and (max-width: 746px) {
+  .show {
+    height: 123px;
+    font-size: 12px;
+    width: 13rem;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .show {
+    height: 94px;
+    font-size: 12px;
+    width: 18rem;
+    background-color: rgba(0, 0, 0, 0.68);
+}
+}
+
+
+
 
 @media screen and (max-width: 577px) {
   .marquee {
@@ -665,8 +705,8 @@ color: green;
     left: -11.5rem;
   }
 }
-
-@media screen and (max-width: 445px) {
+/* 
+@media screen and (max-width: 300px) {
   #Developers{
     font-size: 19px;
     position: relative;
@@ -685,7 +725,34 @@ color: green;
     top: 32px;
     font-size: 10px;
 }
+} */
 
+@media screen and (max-width: 445px) {
+
+  .show {
+    height: 72px;
+    font-size: 10px;
+    width: 18rem;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+  #Developers{
+    font-size: 19px;
+    position: relative;
+    left: -100px;
+  }
+
+  .data_contributor_linkedin {
+    border: 2px solid gray;
+    position: relative;
+    left: -39px;
+    border-radius: 9px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    box-shadow: 1px 1px 8px #888888;
+    top: 32px;
+    font-size: 10px;
+}
 #Developers {
   font-size: 15px;
   position: relative;
@@ -784,6 +851,14 @@ color: green;
 }
 
 
+@media screen and (max-width: 307px) {
+  .show {
+    height: 85px;
+    font-size: 10px;
+    width: 13rem;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+}
 
 .marquee .data_card {
   
