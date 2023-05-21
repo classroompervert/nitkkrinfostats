@@ -63,18 +63,41 @@
   
 }
 
-#intern_dashboard {
-  position: absolute;
-  left: 175px;
-  top: 70px;
-  height: 38rem;
-  width: 60rem;
+@media screen and (max-width: 1600px){
+  #intern_dashboard {
+    position: absolute;
+    left: 175px;
+    top: 70px;
+    height: 38rem;
+    width: 60rem;
+  }
 }
+
 
 @media screen and (max-width: 1371px) {
   #intern_dashboard {
     left: 100px;
   }
+  /* #intern_dashboard {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 91vh;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    z-index: 10;
+} */
 }
 
 @media screen and (max-width: 1266px) {
@@ -83,72 +106,237 @@
     height: 35rem;
     width: 55rem;
   }
+  /* #intern_dashboard {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 91vh;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    z-index: 10;
+} */
 }
 
 @media screen and (max-width: 1176px) {
-  #intern_dashboard {
+  /* #intern_dashboard {
     left: 46px;
     top: 110px;
     height: 35rem;
     width: 55rem;
-  }
+  } */
+
+  #intern_dashboard {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 91vh;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    z-index: 10;
+}
 }
 
 /* New iframe link  */
 @media screen and (max-width: 1033px) {
-  #intern_dashboard {
+  /* #intern_dashboard {
     left: 55px;
     top: 130px;
     height: 35rem;
     width: 44rem;
-  }
+  } */
+  #intern_dashboard {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 91vh;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    z-index: 10;
+}
 }
 
 /* New iframe link */
 @media screen and (max-width: 847px) {
-  #intern_dashboard {
+  /* #intern_dashboard {
     left: 131px;
     top: 122px;
     height: 35rem;
     width: 25rem;
-  }
+  } */
+
+  #intern_dashboard {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 91vh;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    z-index: 10;
+}
 }
 
 @media screen and (max-width: 621px) {
-  #intern_dashboard {
+  /* #intern_dashboard {
     left: 10px;
     top: 122px;
     height: 35rem;
     width: 25rem;
-  }
+  } */
+  #intern_dashboard {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 91vh;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    z-index: 10;
+}
 }
 
 /* New Iframe link  */
 @media screen and (max-width: 486px) {
-  #intern_dashboard {
+  /* #intern_dashboard {
     left: 60px;
     top: 122px;
     height: 34rem;
     width: 13rem;
-  }
+  } */
+  #intern_dashboard {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 91vh;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    z-index: 10;
+}
+
 }
 
 @media screen and (max-width: 368px) {
-  #intern_dashboard {
+  /* #intern_dashboard {
     left: 10px;
     top: 122px;
     height: 34rem;
     width: 13rem;
-  }
+  } */
+  #intern_dashboard {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 91vh;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    z-index: 10;
+}
 }
 
 @media screen and (max-width: 280px) {
-  #intern_dashboard {
+  /* #intern_dashboard {
     left: 0px;
     top: 122px;
     height: 34rem;
     width: 13rem;
-  }
+  } */
+
+  #intern_dashboard {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 91vh;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    z-index: 10;
+}
+
 }
 /* .logoBar {
   display: none;
@@ -187,9 +375,28 @@ z-index: 200;
 
 /* Adding position of the intern dashboard */
 .iframe_container1{
-  position: absolute;
+  /* position: absolute;
   left: 35px;
-  top: -54px;
+  top: -54px; */
+
+  position: absolute;
+  top: 55px;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 91vh;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  z-index: 10;
 }
 
 /* Adding position of the placement dashboard */
