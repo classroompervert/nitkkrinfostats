@@ -62,6 +62,14 @@
   /* Change the box shadow on hover */
   
 }
+@media screen and (max-width: 1150px) {
+  #dashboard_ss {
+    display: none; /* Hide the element after 1150px width */
+  }
+  .image-container::after {
+    display: none; /* Hide the element after 1150px width */
+  }
+}
 
 @media screen and (max-width: 2000px){
   #intern_dashboard1 {

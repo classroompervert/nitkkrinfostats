@@ -723,7 +723,8 @@ body {
     left: -15px;
     right: 0;
     height: 2px;
-    background-color: #282828
+    background-color: #282828;
+    display: none;
 }
 
 /* .intro--banner::after {
@@ -796,7 +797,7 @@ body {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: none;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -807,16 +808,17 @@ body {
 }
 
 .intro--options>a{
+    color: white;
     max-width: 250px;
     text-decoration: none;
-    color: #282828;
+    /* color: #282828; */
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out
 }
 
-.intro--options>a:hover {
+/* .intro--options>a:hover {
     color: #fff
-}
+} */
 
 .intro--options h3 {
     font-size: 16px;
@@ -863,7 +865,7 @@ body {
     }
 
     .intro--options {
-        display: block
+        display: none
     }
 
     .intro--options>a {
