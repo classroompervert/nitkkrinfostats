@@ -1218,3 +1218,22 @@ h1 {
   0% { transform: translateX(0); }
   100% { transform: translatex(-144vw); }
 }
+
+
+/* Instructions page youtube video css  */
+.iframe_link_youtube iframe{
+  height: 500px;
+  width: 50rem;
+}
+
+.iframe_link_youtube{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 312px) {
+  .iframe_link_youtube iframe{
+    height: 500px;
+    width: 16rem;
+  }
+}
